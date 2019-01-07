@@ -42,3 +42,14 @@ yarn start
 yarn build
 # generated in `dist` dir
 ```
+
+- use
+
+```html
+<!-- your html file-->
+
+<!-- use uploader -->
+<x-uploader></x-uploader>
+<!-- import bundled uploader file -->
+<script src="/uploader.js"></script>
+```
