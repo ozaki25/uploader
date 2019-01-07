@@ -23,7 +23,8 @@ class XUploader extends HTMLElement {
     this.shadowRoot.querySelector('form').addEventListener('submit', this.onSubmit);
   }
 
-  onSubmit({ target }) {
+  onSubmit(e) {
+    const { target } = e;
     e.preventDefault();
     const key = target.querySelector('input[name="key"]');
     const inputFile = target.querySelector('input[name="file"]');
