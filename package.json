@@ -2,5 +2,12 @@
   "name": "uploader_components",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel watch index.html",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.11.0"
+  }
 }
