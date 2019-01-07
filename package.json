@@ -4,10 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "parcel watch index.html",
+    "start": "parcel index.html --open",
     "build": "parcel build index.html"
   },
-  "dependencies": {
+  "devDependencies": {
     "parcel-bundler": "^1.11.0"
   }
 }
